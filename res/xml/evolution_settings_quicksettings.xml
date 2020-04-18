@@ -186,6 +186,12 @@
             android:summary="@string/qs_footer_edit_summary"
             android:defaultValue="true" />
 
+        <com.evolution.settings.preferences.SystemSettingSwitchPreference
+            android:key="notification_headers"
+            android:title="@string/notification_headers_title"
+            android:summary="@string/notification_headers_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
